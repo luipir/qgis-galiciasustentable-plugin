@@ -1,0 +1,32 @@
+[general]
+name=GaliciaSustentable
+qgisMinimumVersion=3.0
+description=GaliciaSustentable processing provider
+version=0.1
+author=Luigi Pirelli
+email=luipir@gmail.com
+about=Install models and algs for GaliciaSustentable proyect
+tracker=
+repository=
+
+# Recommended items:
+
+hasProcessingProvider=yes
+changelog=
+tags=analysis, calculator, delimitation, processing
+
+homepage=
+# Category of the plugin: Raster, Vector, Database or Web
+category=Analysis
+icon=icon.png
+experimental=True
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# If the plugin can run on QGIS Server.
+server=False
+
