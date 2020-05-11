@@ -1,0 +1,719 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="gdal:rasterize_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="gdal:rasterize" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="815.7776427703524" name="component_pos_x"/>
+        <Option type="double" value="412.1202916160389" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Rasterize street network by street type" name="component_description"/>
+      <Option type="double" value="42.88578371810456" name="component_height"/>
+      <Option type="double" value="725.3068043742404" name="component_pos_x"/>
+      <Option type="double" value="505.52855407047394" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="native:polygonfromlayerextent_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="gdal:rasterize_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="BURN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTENT">
+          <Option type="Map">
+            <Option type="QString" value="native:polygonfromlayerextent_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTRA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="street_type" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="HEIGHT">
+          <Option type="Map">
+            <Option type="QString" value="Resolution" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INVERT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="UNITS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="WIDTH">
+          <Option type="Map">
+            <Option type="QString" value="Resolution" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="550" name="component_pos_x"/>
+        <Option type="double" value="219" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Extract only relevant features" name="component_description"/>
+      <Option type="double" value="44" name="component_height"/>
+      <Option type="double" value="391" name="component_pos_x"/>
+      <Option type="double" value="250" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extractbyexpression_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option type="QString" value="Featurestofilter" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="StreetNetwork" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:polygonfromlayerextent_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:polygonfromlayerextent" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="602.2205346294046" name="component_pos_x"/>
+        <Option type="double" value="450.18226002430134" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Extract layer extent" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="406.82260024301337" name="component_pos_x"/>
+      <Option type="double" value="487.81895504252736" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:polygonfromlayerextent_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ROUND_TO">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="0" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reclassifybytable_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reclassifybytable" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="874.6628189550426" name="component_pos_x"/>
+        <Option type="double" value="620.458687727825" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Reclassify by table" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="674.6628189550426" name="component_pos_x"/>
+      <Option type="double" value="665.458687727825" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="gdal:rasterize_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="native:reclassifybytable_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="StreetNwetowk friction classes">
+          <Option type="QString" value="native:reclassifybytable_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="StreetNwetowk friction classes" name="component_description"/>
+          <Option type="double" value="54" name="component_height"/>
+          <Option type="double" value="688.7393681652491" name="component_pos_x"/>
+          <Option type="double" value="803.455042527339" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="StreetNwetowk friction classes" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_RASTER">
+          <Option type="Map">
+            <Option type="QString" value="gdal:rasterize_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_FOR_MISSING">
+          <Option type="Map">
+            <Option type="QString" value="NODATA" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NO_DATA">
+          <Option type="Map">
+            <Option type="QString" value="NODATA" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RANGE_BOUNDARIES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RASTER_BAND">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TABLE">
+          <Option type="Map">
+            <Option type="QString" value="Classestofriction" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="561.7223572296476" name="component_pos_x"/>
+        <Option type="double" value="288.1895504252734" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Convert street type to int" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="395.7776427703524" name="component_pos_x"/>
+      <Option type="double" value="357.1202916160389" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="native:extractbyexpression_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="qgis:fieldcalculator_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="street_type" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="to_int(attribute( @StreetTypefield ))" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:extractbyexpression_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option type="Map" name="designerParameterValues">
+    <Option type="List" name="Classestofriction">
+      <Option type="QString" value="28"/>
+      <Option type="QString" value="28"/>
+      <Option type="QString" value="1"/>
+      <Option type="QString" value="42"/>
+      <Option type="QString" value="42"/>
+      <Option type="QString" value="2"/>
+      <Option type="QString" value="43"/>
+      <Option type="QString" value="43"/>
+      <Option type="QString" value="3"/>
+      <Option type="QString" value="29"/>
+      <Option type="QString" value="29"/>
+      <Option type="QString" value="4"/>
+      <Option type="QString" value="26"/>
+      <Option type="QString" value="26"/>
+      <Option type="QString" value="5"/>
+      <Option type="QString" value="0"/>
+      <Option type="QString" value="0"/>
+      <Option type="QString" value="6"/>
+      <Option type="QString" value="30"/>
+      <Option type="QString" value="30"/>
+      <Option type="QString" value="3"/>
+      <Option type="QString" value="33"/>
+      <Option type="QString" value="33"/>
+      <Option type="QString" value="3"/>
+      <Option type="QString" value="58"/>
+      <Option type="QString" value="58"/>
+      <Option type="QString" value="3"/>
+      <Option type="QString" value="119"/>
+      <Option type="QString" value="119"/>
+      <Option type="QString" value="2"/>
+      <Option type="QString" value="1002"/>
+      <Option type="QString" value="1002"/>
+      <Option type="QString" value="3"/>
+      <Option type="QString" value="1003"/>
+      <Option type="QString" value="1003"/>
+      <Option type="QString" value="3"/>
+    </Option>
+    <Option type="QString" value="&quot;CLASIFICAC&quot; NOT IN ('ATN','TIPO 9')" name="Featurestofilter"/>
+    <Option type="int" value="-9999" name="NODATA"/>
+    <Option type="double" value="5" name="Resolution"/>
+    <Option type="QString" value="RedTransporte_merged_2017_a26c84e8_1352_4cd4_a1fc_699d7084c7ba" name="StreetNetwork"/>
+    <Option type="QString" value="ID_TIPO" name="StreetTypefield"/>
+    <Option type="bool" value="true" name="VERBOSE_LOG"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="gdal:rasterize_1:rasterised1111111111">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" value="System" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" value="true" name="active"/>
+          <Option type="int" value="1" name="type"/>
+          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:reclassifybytable_1:StreetNwetowk friction classes">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" value="System" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" value="true" name="active"/>
+          <Option type="int" value="1" name="type"/>
+          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" value="GaliciaSustentables preparation" name="model_group"/>
+  <Option type="QString" value="StreetNetwork friction generation" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="Classestofriction">
+      <Option type="List" name="default">
+        <Option type="QString" value="28"/>
+        <Option type="QString" value="28"/>
+        <Option type="QString" value="1"/>
+        <Option type="QString" value="42"/>
+        <Option type="QString" value="42"/>
+        <Option type="QString" value="2"/>
+        <Option type="QString" value="43"/>
+        <Option type="QString" value="43"/>
+        <Option type="QString" value="3"/>
+        <Option type="QString" value="29"/>
+        <Option type="QString" value="29"/>
+        <Option type="QString" value="4"/>
+        <Option type="QString" value="26"/>
+        <Option type="QString" value="26"/>
+        <Option type="QString" value="5"/>
+        <Option type="QString" value="0"/>
+        <Option type="QString" value="0"/>
+        <Option type="QString" value="6"/>
+        <Option type="QString" value="30"/>
+        <Option type="QString" value="30"/>
+        <Option type="QString" value="3"/>
+        <Option type="QString" value="33"/>
+        <Option type="QString" value="33"/>
+        <Option type="QString" value="3"/>
+        <Option type="QString" value="58"/>
+        <Option type="QString" value="58"/>
+        <Option type="QString" value="3"/>
+        <Option type="QString" value="119"/>
+        <Option type="QString" value="119"/>
+        <Option type="QString" value="2"/>
+        <Option type="QString" value="1002"/>
+        <Option type="QString" value="1002"/>
+        <Option type="QString" value="3"/>
+        <Option type="QString" value="1003"/>
+        <Option type="QString" value="1003"/>
+        <Option type="QString" value="3"/>
+      </Option>
+      <Option type="QString" value="Classes to friction" name="description"/>
+      <Option type="bool" value="false" name="fixed_number_rows"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="StringList" name="headers">
+        <Option type="QString" value="1"/>
+        <Option type="QString" value="2"/>
+        <Option type="QString" value="3"/>
+      </Option>
+      <Option name="metadata"/>
+      <Option type="QString" value="Classestofriction" name="name"/>
+      <Option type="QString" value="matrix" name="parameter_type"/>
+      <Option type="int" value="1" name="rows"/>
+    </Option>
+    <Option type="Map" name="Featurestofilter">
+      <Option type="QString" value="&quot;CLASIFICAC&quot; NOT IN ('ATN','TIPO 9')" name="default"/>
+      <Option type="QString" value="Features to filter" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="Featurestofilter" name="name"/>
+      <Option type="QString" value="expression" name="parameter_type"/>
+      <Option type="QString" value="StreetNetwork" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="NODATA">
+      <Option type="int" value="0" name="data_type"/>
+      <Option type="double" value="-9999" name="default"/>
+      <Option type="QString" value="NODATA" name="description"/>
+      <Option type="int" value="2" name="flags"/>
+      <Option type="double" value="1.7976931348623157e+308" name="max"/>
+      <Option name="metadata"/>
+      <Option type="double" value="-1.7976931348623157e+308" name="min"/>
+      <Option type="QString" value="NODATA" name="name"/>
+      <Option type="QString" value="number" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="Resolution">
+      <Option type="int" value="1" name="data_type"/>
+      <Option type="double" value="5" name="default"/>
+      <Option type="QString" value="Resolution" name="description"/>
+      <Option type="int" value="2" name="flags"/>
+      <Option type="double" value="1.79769e+308" name="max"/>
+      <Option name="metadata"/>
+      <Option type="double" value="-1.79769e+308" name="min"/>
+      <Option type="QString" value="Resolution" name="name"/>
+      <Option type="QString" value="number" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="StreetNetwork">
+      <Option type="List" name="data_types">
+        <Option type="int" value="1"/>
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="StreetNetwork" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="StreetNetwork" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="StreetTypefield">
+      <Option type="bool" value="false" name="allow_multiple"/>
+      <Option type="int" value="1" name="data_type"/>
+      <Option type="QString" value="ID_TIPO" name="default"/>
+      <Option type="bool" value="false" name="default_to_all_fields"/>
+      <Option type="QString" value="StreetType field" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="StreetTypefield" name="name"/>
+      <Option type="QString" value="field" name="parameter_type"/>
+      <Option type="QString" value="StreetNetwork" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="VERBOSE_LOG">
+      <Option type="bool" value="false" name="default"/>
+      <Option type="QString" value="Verbose logging" name="description"/>
+      <Option type="int" value="12" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="VERBOSE_LOG" name="name"/>
+      <Option type="QString" value="boolean" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="native:reclassifybytable_1:StreetNwetowk friction classes">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="StreetNwetowk friction classes" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="native:reclassifybytable_1:StreetNwetowk friction classes" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option type="StringList" name="parameterOrder">
+    <Option type="QString" value="StreetNetwork"/>
+    <Option type="QString" value="StreetTypefield"/>
+    <Option type="QString" value="Featurestofilter"/>
+    <Option type="QString" value="Classestofriction"/>
+    <Option type="QString" value="NODATA"/>
+    <Option type="QString" value="Resolution"/>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="Classestofriction">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="mapping strett type to friction" name="component_description"/>
+        <Option type="double" value="30" name="component_height"/>
+        <Option type="double" value="177.10874848116637" name="component_pos_x"/>
+        <Option type="double" value="559.4799513973269" name="component_pos_y"/>
+        <Option type="double" value="151.5431348724179" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Classestofriction" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="178.6792223572297" name="component_pos_x"/>
+      <Option type="double" value="638.8086269744836" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="Classestofriction" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="Featurestofilter">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="Fields to filter because not relevant to determine friction costs" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="477.58869987849334" name="component_pos_x"/>
+        <Option type="double" value="53.273390036452" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Featurestofilter" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="476" name="component_pos_x"/>
+      <Option type="double" value="118" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="Featurestofilter" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="NODATA">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="879.2648845686513" name="component_pos_x"/>
+        <Option type="double" value="81.09659781287971" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="NODATA" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="712.3997569866343" name="component_pos_x"/>
+      <Option type="double" value="116.8924665856622" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="NODATA" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="Resolution">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1098.3232077764278" name="component_pos_x"/>
+        <Option type="double" value="70.05164034021871" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Resolution" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="940.6622114216282" name="component_pos_x"/>
+      <Option type="double" value="117.81287970838396" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="Resolution" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="StreetNetwork">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="360" name="component_pos_x"/>
+        <Option type="double" value="70" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="StreetNetwork" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="180" name="component_pos_x"/>
+      <Option type="double" value="118" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="StreetNetwork" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="StreetTypefield">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="317.81287970838395" name="component_pos_x"/>
+        <Option type="double" value="147.3663426488457" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="StreetTypefield" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="170.2764277035237" name="component_pos_x"/>
+      <Option type="double" value="358.0407047387606" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="StreetTypefield" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+  </Option>
+</Option>
