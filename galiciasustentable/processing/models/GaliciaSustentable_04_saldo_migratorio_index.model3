@@ -114,7 +114,7 @@
         <Option name="FIELD_NAME" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="percentage"/>
+            <Option name="static_value" type="QString" value="Saldo migratorio"/>
           </Option>
         </Option>
         <Option name="FIELD_PRECISION" type="List">
@@ -229,7 +229,7 @@
         <Option name="FORMULA" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="CASE&#xa;&#x9;WHEN (&quot;percentage&quot; &lt; 0.3) THEN 'Bajo'&#xa;&#x9;WHEN (&quot;percentage&quot; &lt; 1) THEN 'Medio'&#xa;&#x9;WHEN (&quot;percentage&quot; &lt; 5) THEN 'Alto'&#xa;&#x9;ELSE 'Mui alto'&#xa;END"/>
+            <Option name="static_value" type="QString" value="CASE&#xa;&#x9;WHEN (&quot;Saldo migratorio&quot; &lt; 0.3) THEN 'Bajo'&#xa;&#x9;WHEN (&quot;Saldo migratorio&quot; &lt; 1) THEN 'Medio'&#xa;&#x9;WHEN (&quot;Saldo migratorio&quot; &lt; 5) THEN 'Alto'&#xa;&#x9;ELSE 'Mui alto'&#xa;END"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
