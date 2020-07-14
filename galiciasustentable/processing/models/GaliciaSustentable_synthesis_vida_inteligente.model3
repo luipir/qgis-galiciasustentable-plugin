@@ -1,0 +1,341 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="native:joinattributestable_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="native:joinattributestable"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1500"/>
+        <Option name="component_pos_y" type="double" value="885"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Join attributes by year"/>
+      <Option name="component_height" type="double" value="53"/>
+      <Option name="component_pos_x" type="double" value="555"/>
+      <Option name="component_pos_y" type="double" value="238.5"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="native:joinattributestable_1"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="DISCARD_NONMATCHING" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="bool" value="false"/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="01Yearfield"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="FIELDS_TO_COPY" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="StringList">
+              <Option type="QString" value=""/>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="FIELD_2" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="02Yearfield"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="01Travellerspercentageevaluated"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_2" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" type="QString" value="02Repeatertravellerspercentageevaluated"/>
+            <Option name="source" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="METHOD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="0"/>
+          </Option>
+        </Option>
+        <Option name="PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="qgis:fieldcalculator_1" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" type="QString" value="qgis:fieldcalculator"/>
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1632"/>
+        <Option name="component_pos_y" type="double" value="1112"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="Evaluation Combination theme 1 and 2"/>
+      <Option name="component_height" type="double" value="45"/>
+      <Option name="component_pos_x" type="double" value="522"/>
+      <Option name="component_pos_y" type="double" value="350.5"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="dependencies"/>
+      <Option name="id" type="QString" value="qgis:fieldcalculator_1"/>
+      <Option name="outputs" type="Map">
+        <Option name="Vida inteligente" type="Map">
+          <Option name="child_id" type="QString" value="qgis:fieldcalculator_1"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Vida inteligente"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="730"/>
+          <Option name="component_pos_y" type="double" value="433"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" type="bool" value="false"/>
+          <Option name="name" type="QString" value="Vida inteligente"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="10"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="vida_inteligente"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="3"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="int" value="2"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="CASE&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'bajo' AND lower(&quot;theme_2_synthesis&quot;) = 'bajo') THEN 'Bajo'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'bajo' AND lower(&quot;theme_2_synthesis&quot;) = 'medio') THEN 'Bajo'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'bajo' AND lower(&quot;theme_2_synthesis&quot;) = 'alto') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'bajo' AND lower(&quot;theme_2_synthesis&quot;) = 'mui alto') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'medio' AND lower(&quot;theme_2_synthesis&quot;) = 'bajo') THEN 'Bajo'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'medio' AND lower(&quot;theme_2_synthesis&quot;) = 'medio') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'medio' AND lower(&quot;theme_2_synthesis&quot;) = 'alto') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'medio' AND lower(&quot;theme_2_synthesis&quot;) = 'mui alto') THEN 'Alto'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'alto' AND lower(&quot;theme_2_synthesis&quot;) = 'bajo') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'alto' AND lower(&quot;theme_2_synthesis&quot;) = 'medio') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'alto' AND lower(&quot;theme_2_synthesis&quot;) = 'alto') THEN 'Alto'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'alto' AND lower(&quot;theme_2_synthesis&quot;) = 'mui alto') THEN 'Alto'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'mui alto' AND lower(&quot;theme_2_synthesis&quot;) = 'bajo') THEN 'Medio'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'mui alto' AND lower(&quot;theme_2_synthesis&quot;) = 'medio') THEN 'Alto'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'mui alto' AND lower(&quot;theme_2_synthesis&quot;) = 'alto') THEN 'Mui alto'&#xa;&#x9;WHEN (lower(&quot;theme_1_synthesis&quot;) = 'mui alto' AND lower(&quot;theme_2_synthesis&quot;) = 'mui alto') THEN 'Mui alto'&#xa;&#x9;ELSE NULL&#xa;END"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" type="QString" value="native:joinattributestable_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
+          </Option>
+        </Option>
+        <Option name="NEW_FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="bool" value="true"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues"/>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option name="model_group" type="QString" value="GaliciaSustentable synthesis"/>
+  <Option name="model_name" type="QString" value="Vida inteligente"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="01Travellerspercentageevaluated" type="Map">
+      <Option name="data_types" type="List">
+        <Option type="int" value="5"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" type="QString" value="Theme 1 sysnthesis (atractivo de la ciudad)"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="01Travellerspercentageevaluated"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
+    </Option>
+    <Option name="01Yearfield" type="Map">
+      <Option name="allow_multiple" type="bool" value="false"/>
+      <Option name="data_type" type="int" value="0"/>
+      <Option name="default" type="QString" value="año"/>
+      <Option name="default_to_all_fields" type="bool" value="false"/>
+      <Option name="description" type="QString" value="Theme 1 Year field"/>
+      <Option name="flags" type="int" value="2"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="01Yearfield"/>
+      <Option name="parameter_type" type="QString" value="field"/>
+      <Option name="parent_layer" type="QString" value="01Travellerspercentageevaluated"/>
+    </Option>
+    <Option name="02Repeatertravellerspercentageevaluated" type="Map">
+      <Option name="data_types" type="List">
+        <Option type="int" value="5"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" type="QString" value="Theme 2 synthesis (Salud)"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="02Repeatertravellerspercentageevaluated"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
+    </Option>
+    <Option name="02Yearfield" type="Map">
+      <Option name="allow_multiple" type="bool" value="false"/>
+      <Option name="data_type" type="int" value="0"/>
+      <Option name="default" type="QString" value="año"/>
+      <Option name="default_to_all_fields" type="bool" value="false"/>
+      <Option name="description" type="QString" value="Theme 2 Year field"/>
+      <Option name="flags" type="int" value="2"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="02Yearfield"/>
+      <Option name="parameter_type" type="QString" value="field"/>
+      <Option name="parent_layer" type="QString" value="02Repeatertravellerspercentageevaluated"/>
+    </Option>
+    <Option name="VERBOSE_LOG" type="Map">
+      <Option name="default" type="bool" value="false"/>
+      <Option name="description" type="QString" value="Verbose logging"/>
+      <Option name="flags" type="int" value="12"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="VERBOSE_LOG"/>
+      <Option name="parameter_type" type="QString" value="boolean"/>
+    </Option>
+    <Option name="qgis:fieldcalculator_1:Vida inteligente" type="Map">
+      <Option name="create_by_default" type="bool" value="true"/>
+      <Option name="data_type" type="int" value="-1"/>
+      <Option name="default" type="invalid"/>
+      <Option name="description" type="QString" value="Vida inteligente"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="metadata"/>
+      <Option name="name" type="QString" value="qgis:fieldcalculator_1:Vida inteligente"/>
+      <Option name="parameter_type" type="QString" value="sink"/>
+      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option name="parameters" type="Map">
+    <Option name="01Travellerspercentageevaluated" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1363"/>
+        <Option name="component_pos_y" type="double" value="742"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="01Travellerspercentageevaluated"/>
+      <Option name="component_height" type="double" value="60"/>
+      <Option name="component_pos_x" type="double" value="109"/>
+      <Option name="component_pos_y" type="double" value="35"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="name" type="QString" value="01Travellerspercentageevaluated"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+    <Option name="01Yearfield" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1547"/>
+        <Option name="component_pos_y" type="double" value="673"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="01Yearfield"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="384"/>
+      <Option name="component_pos_y" type="double" value="32"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="name" type="QString" value="01Yearfield"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+    <Option name="02Repeatertravellerspercentageevaluated" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="1595"/>
+        <Option name="component_pos_y" type="double" value="745"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="02Repeatertravellerspercentageevaluated"/>
+      <Option name="component_height" type="double" value="59"/>
+      <Option name="component_pos_x" type="double" value="709"/>
+      <Option name="component_pos_y" type="double" value="35.5"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="name" type="QString" value="02Repeatertravellerspercentageevaluated"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+    <Option name="02Yearfield" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="2016"/>
+        <Option name="component_pos_y" type="double" value="683"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="02Yearfield"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="979"/>
+      <Option name="component_pos_y" type="double" value="50"/>
+      <Option name="component_width" type="double" value="210"/>
+      <Option name="name" type="QString" value="02Yearfield"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
+  </Option>
+</Option>
