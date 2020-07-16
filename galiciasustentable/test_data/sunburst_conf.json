@@ -1,0 +1,68 @@
+{
+    "name": "Vida inteligente",
+    "children": [
+    {
+        "name": "Atractivo de ciudad",
+        "children": [
+        {
+            "name": "Atractivo laboral/residencial",
+            "children": [
+            {
+                "name": "Autocontención laboral" ,
+                "size": 0.36
+            },
+            {
+                "name": "Saldo migratorio",
+                "size": 0.24
+            }
+            ]
+        },
+        {
+            "name": "Atractivo turístico",
+            "children": [
+            {
+                "name": "Visitantes en la ciudad",
+                "size": 0.16
+            },
+            {
+                "name": "Visitantes que repiten",
+                "size": 0.24
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "name": "Salud",
+        "children": [
+        {
+            "name": "Accesibilidad recursos sanitarios",
+            "children": [
+            {
+                "name": "Proximidad a centro atención primaria",
+                "size": 0.2
+            }
+            ]
+        },
+        {
+            "name": "Recursos sanitarios",
+            "children": [
+            {
+                "name": "Capacidad atención primaria",
+                "size": 0.3
+            }
+            ]
+        },
+        {
+            "name": "Vida saludable",
+            "children": [
+            {
+                "name": "Esperanza de vida al nacer",
+                "size": 0.5
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
