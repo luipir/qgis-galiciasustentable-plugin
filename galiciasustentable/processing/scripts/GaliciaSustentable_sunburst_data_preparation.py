@@ -240,7 +240,8 @@ class SunburstDataPreparationProcessingAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFeatureSink(
                 self.OUTPUT,
-                self.tr('Output generated sunburst JSONs by year')
+                self.tr('Output generated sunburst JSONs by year'),
+                defaultValue = 'indexes_sunburst.gpkg'
             )
         )
 
