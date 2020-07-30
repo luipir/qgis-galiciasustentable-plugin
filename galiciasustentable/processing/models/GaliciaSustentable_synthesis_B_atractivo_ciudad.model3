@@ -102,7 +102,7 @@
       <Option name="dependencies"/>
       <Option value="qgis:fieldcalculator_1" type="QString" name="id"/>
       <Option type="Map" name="outputs">
-        <Option type="Map" name="B - Evaluation &quot;Atractivo de la ciudad&quot;">
+        <Option type="Map" name="B - Evaluation Atractivo de la ciudad">
           <Option value="qgis:fieldcalculator_1" type="QString" name="child_id"/>
           <Option value="" type="QString" name="color"/>
           <Option type="Map" name="comment">
@@ -115,14 +115,14 @@
             <Option value="true" type="bool" name="outputs_collapsed"/>
             <Option value="true" type="bool" name="parameters_collapsed"/>
           </Option>
-          <Option value="B - Evaluation &quot;Atractivo de la ciudad&quot;" type="QString" name="component_description"/>
-          <Option value="42" type="double" name="component_height"/>
-          <Option value="668" type="double" name="component_pos_x"/>
-          <Option value="510" type="double" name="component_pos_y"/>
-          <Option value="180" type="double" name="component_width"/>
+          <Option value="B - Evaluation Atractivo de la ciudad" type="QString" name="component_description"/>
+          <Option value="41" type="double" name="component_height"/>
+          <Option value="863" type="double" name="component_pos_x"/>
+          <Option value="464.5" type="double" name="component_pos_y"/>
+          <Option value="200" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
-          <Option value="B - Evaluation &quot;Atractivo de la ciudad&quot;" type="QString" name="name"/>
+          <Option value="B - Evaluation Atractivo de la ciudad" type="QString" name="name"/>
           <Option value="OUTPUT" type="QString" name="output_name"/>
           <Option value="true" type="bool" name="outputs_collapsed"/>
           <Option value="true" type="bool" name="parameters_collapsed"/>
@@ -248,14 +248,22 @@
       <Option value="field" type="QString" name="parameter_type"/>
       <Option value="02Repeatertravellerspercentageevaluated" type="QString" name="parent_layer"/>
     </Option>
-    <Option type="Map" name="qgis:fieldcalculator_1:B - Evaluation &quot;Atractivo de la ciudad&quot;">
+    <Option type="Map" name="VERBOSE_LOG">
+      <Option value="false" type="bool" name="default"/>
+      <Option value="Verbose logging" type="QString" name="description"/>
+      <Option value="12" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="VERBOSE_LOG" type="QString" name="name"/>
+      <Option value="boolean" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_1:B - Evaluation Atractivo de la ciudad">
       <Option value="true" type="bool" name="create_by_default"/>
       <Option value="-1" type="int" name="data_type"/>
       <Option type="invalid" name="default"/>
-      <Option value="B - Evaluation &quot;Atractivo de la ciudad&quot;" type="QString" name="description"/>
+      <Option value="B - Evaluation Atractivo de la ciudad" type="QString" name="description"/>
       <Option value="0" type="int" name="flags"/>
       <Option name="metadata"/>
-      <Option value="qgis:fieldcalculator_1:B - Evaluation &quot;Atractivo de la ciudad&quot;" type="QString" name="name"/>
+      <Option value="qgis:fieldcalculator_1:B - Evaluation Atractivo de la ciudad" type="QString" name="name"/>
       <Option value="sink" type="QString" name="parameter_type"/>
       <Option value="false" type="bool" name="supports_append"/>
       <Option value="true" type="bool" name="supports_non_file_outputs"/>
