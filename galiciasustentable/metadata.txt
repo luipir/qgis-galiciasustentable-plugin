@@ -1,18 +1,18 @@
 [general]
 name=GaliciaSustentable
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.14
 description=GaliciaSustentable processing provider
-version=0.1
-author=Luigi Pirelli
+version=1.0
+author=Luigi Pirelli for https://fgsustentable.org/
 email=luipir@gmail.com
-about=Install models and algs for GaliciaSustentable proyect
-tracker=
-repository=
+about=Install models and algs for GaliciaSustentable proyect (https://fgsustentable.org/)
+tracker=https://github.com/luipir/qgis-galiciasustentable-plugin/issues
+repository=https://github.com/luipir/qgis-galiciasustentable-plugin
 
 # Recommended items:
 
 hasProcessingProvider=yes
-changelog=
+changelog=First deploy
 tags=analysis, calculator, delimitation, processing
 
 homepage=
