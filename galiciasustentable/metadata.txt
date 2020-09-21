@@ -19,7 +19,7 @@ homepage=
 # Category of the plugin: Raster, Vector, Database or Web
 category=Analysis
 icon=icon.png
-experimental=True
+experimental=False
 deprecated=False
 
 # Since QGIS 3.8, a comma separated list of plugins to be installed
